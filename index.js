@@ -1,3 +1,10 @@
+const http = require('http');
+const PORT = Number(process.env.PORT || 3000);
+http.createServer((req,res)=>{
+  res.writeHead(200, {'Content-Type':'text/plain; charset=utf-8'});
+  res.end('SHIBACO BOT ONLINE');
+}).listen(PORT, '0.0.0.0', ()=>console.log('🌐 Health server listening on port '+PORT));
+
 const {
   default: makeWASocket, fetchLatestWaWebVersion,
   useMultiFileAuthState,
