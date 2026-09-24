@@ -1,0 +1,17 @@
+{
+  "name": "shibaco-bot",
+  "version": "11.0.0",
+  "description": "SHIBACO BOT - Arabic WhatsApp anime/community bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.18",
+    "cheerio": "^1.2.0",
+    "pino": "latest",
+    "qrcode-terminal": "latest",
+    "sharp": "^0.35.4",
+    "yt-dlp-wrap-plus": "2.5.0"
+  }
+}
